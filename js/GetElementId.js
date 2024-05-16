@@ -5,5 +5,5 @@ document.getElementById('cambiarTexto').addEventListener('click', function(){
 var Texto = "Texto original";
 document.getElementById('volverTexto').addEventListener('click', function(){
     var Texto = document.getElementById('mensaje');
-Texto.innerText = Texto;
+Texto.innerText = "Texto original";
 });
